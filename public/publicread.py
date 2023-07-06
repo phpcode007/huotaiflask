@@ -1,0 +1,1 @@
+PUBLIC_LOGIN_URL = "/admin/user/login"

@@ -1,0 +1,25 @@
+#pip3 install -r requirements.txt
+#安装报错
+
+#error: subprocess-exited-with-error
+#先升级 pip3 install --upgrade setuptools
+#再安装 pip3 install websocket
+
+#AttributeError: module 'websocket' has no attribute 'enableTrace'
+#websocket-client 这个才是websocket客户端
+#pip3 install websocket-client
+
+Flask==2.2.2
+loguru==0.6.0
+SQLAlchemy==1.4.41
+Flask-Caching==2.0.1
+cacheout==0.14.1
+PyMySQL==1.0.2
+redis==4.3.4
+Flask-WTF==1.0.1
+jsonschema==4.16.0
+gunicorn==20.1.0
+websocket==0.2.1
+websocket-client==1.4.2
+requests==2.25.1
+DingtalkChatbot==1.5.7
